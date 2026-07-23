@@ -7,9 +7,11 @@ import { Calendar, Clock, ChevronLeft } from "lucide-react";
 const BASE_URL = "https://mahadev.guru";
 
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
-    slug: post.slug,
-  }));
+  return blogPosts
+    .filter((post) => !post.customUrl)
+    .map((post) => ({
+      slug: post.slug,
+    }));
 }
 
 interface PageProps {
@@ -43,7 +45,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const resolvedParams = await params;
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
-  if (!post) {
+  if (!post || post.customUrl) {
     notFound();
   }
 

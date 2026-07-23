@@ -67,17 +67,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#050B14] text-slate-200 selection:bg-amber-500/30 selection:text-amber-200">
       
-      {/* Navbar Placeholder */}
-      <nav className="fixed w-full z-50 top-0 border-b border-white/5 bg-[#050B14]/80 backdrop-blur-xl">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="text-2xl font-black tracking-tighter text-white">
-            MAHADEV<span className="text-amber-500">BOOK</span>
-          </div>
-          <a href={whatsappUrl} className="hidden md:flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold px-6 py-2.5 rounded-full hover:scale-105 transition-all shadow-[0_0_20px_rgba(245,158,11,0.3)]">
-            Join Now <MessageSquare className="w-4 h-4" />
-          </a>
-        </div>
-      </nav>
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">

@@ -52,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const blogRoutes = blogPosts.map((post) => ({
-    url: `${BASE_URL}/blog/${post.slug}`,
+    url: post.customUrl ? `${BASE_URL}${post.customUrl}` : `${BASE_URL}/blog/${post.slug}`,
     lastModified: now,
     changeFrequency: "weekly" as const,
     priority: 0.6,

@@ -59,7 +59,7 @@ const fullFaqs = [
   },
   {
     q: "What is the Mahadev Book contact number?",
-    a: "The official contact is provided via our WhatsApp buttons. Our active verified support number is +91 88721 89728. Always verify that you are chatting with our official business profile."
+    a: "The official contact is provided via our WhatsApp buttons. Our active verified support number is +91 8796686330. Always verify that you are chatting with our official business profile."
   }
 ];
 

@@ -23,11 +23,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   applicationName: "Mahadev Book",
   title: {
-    default: "Mahadev Book | Mahadev Book ID | India's Trusted Betting Platform",
+    default: "Mahadev Book ID Information Guide | Official Online Information",
     template: "%s | Mahadev Book",
   },
   description:
-    "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Get your Mahadev Book ID instantly at mahadev.guru.",
+    "Explore Mahadev Book information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
   keywords: [
     "Mahadev Book",
     "Mahadev Book ID",
@@ -60,9 +60,9 @@ export const metadata: Metadata = {
     google: "tCHeVZ0W09tRq6RF92W-9s8SLDH1A3Ebg0t7Dqctq3E",
   },
   openGraph: {
-    title: "Mahadev Book | India's Most Trusted Online Betting Platform",
+    title: "Mahadev Book ID Information Guide | Official Online Information",
     description:
-      "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support. Win big with Mahadev Book.",
+      "Explore Mahadev Book information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
     url: BASE_URL,
     siteName: "Mahadev Book",
     locale: "en_IN",
@@ -78,9 +78,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mahadev Book | India's Most Trusted Online Betting Platform",
+    title: "Mahadev Book ID Information Guide | Official Online Information",
     description:
-      "Join Mahadev Book for secure betting on cricket, casino & more. Fast login, UPI deposits & 24/7 support.",
+      "Explore Mahadev Book information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
     creator: "@mahadevbook",
     site: "@mahadevbook",
   },
@@ -106,31 +106,120 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const organizationSchema = {
+  const schemaData = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "Mahadev Book",
-    url: BASE_URL,
-    contactPoint: {
-      "@type": "ContactPoint",
-      contactType: "customer support",
-      availableLanguage: ["English", "Hindi"],
-    },
-  };
-
-  const websiteSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "Mahadev Book",
-    url: BASE_URL,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${BASE_URL}/?s={search_term_string}`,
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://mahadev.guru/#website",
+        "url": "https://mahadev.guru/",
+        "name": "Mahadev Book",
+        "inLanguage": "en"
       },
-      "query-input": "required name=search_term_string",
-    },
+      {
+        "@type": "Organization",
+        "@id": "https://mahadev.guru/#organization",
+        "name": "Mahadev Book",
+        "url": "https://mahadev.guru/"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://mahadev.guru/#webpage",
+        "url": "https://mahadev.guru/",
+        "name": "Mahadev Book ID Information Guide | Official Online Information",
+        "description": "Explore Mahadev Book information, online ID guidance, sports betting and gaming resources, account help, and frequently asked questions.",
+        "isPartOf": {
+          "@id": "https://mahadev.guru/#website"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://mahadev.guru/#faq",
+        "url": "https://mahadev.guru/",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Mahadev Book?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mahadev Book is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does a Mahadev Book ID work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An account ID is generally used to identify a user account. Refer to Mahadev Book's current account instructions and terms for the exact process."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I access Mahadev Book?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What sports are available on Mahadev Book?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Mahadev Book provide live sports information?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Check the site's current sports section for any live-event information and the terms that apply to its use."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I get help with my Mahadev Book account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I find Mahadev Book login information?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What payment options are supported?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I do if I have trouble accessing my account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I find the latest Mahadev Book updates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Refer to Mahadev Book's current website information and terms for the most accurate answer."
+            }
+          }
+        ]
+      }
+    ]
   };
 
   return (
@@ -142,11 +231,7 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
         />
       </head>
       <body className="min-h-full flex flex-col bg-[#050505] text-zinc-100 font-sans selection:bg-teal-500/20 selection:text-teal-300">

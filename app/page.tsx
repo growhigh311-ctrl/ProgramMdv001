@@ -43,14 +43,16 @@ const trustPoints = [
 ];
 
 const faqs = [
-  { q: "What is Mahadev Book Online Betting ID?", a: "An online betting ID provides you access to our premium sportsbook and live casino platforms." },
-  { q: "How does Mahadev Book work?", a: "We act as an aggregator connecting you to the best betting exchanges securely." },
-  { q: "How do I register for a new Online Betting ID?", a: "Simply click on Join Now to WhatsApp us, and we'll create your ID within 2 minutes." },
-  { q: "What games can I play with my Mahadev Book ID?", a: "You can play cricket, football, tennis, virtual sports, and live casino games." },
-  { q: "How do I deposit money into my Mahadev Book account?", a: "We accept UPI, GPay, Paytm, PhonePe, and local net banking." },
-  { q: "How do I withdraw my winnings?", a: "Send a withdrawal request on WhatsApp, and get funds in your bank in 5-10 minutes." },
-  { q: "Is Mahadev Book legal in India?", a: "Yes, we operate within the legal boundaries and ensure a safe experience." },
-  { q: "Is Mahadev Book safe and trusted?", a: "Absolutely. We are SSL encrypted and trusted by millions of users since 2018." }
+  { q: "What is Mahadev Book?", a: "Mahadev Book is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information." },
+  { q: "How does a Mahadev Book ID work?", a: "An account ID is generally used to identify a user account. Refer to Mahadev Book's current account instructions and terms for the exact process." },
+  { q: "How can I access Mahadev Book?", a: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site." },
+  { q: "What sports are available on Mahadev Book?", a: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability." },
+  { q: "Does Mahadev Book provide live sports information?", a: "Check the site's current sports section for any live-event information and the terms that apply to its use." },
+  { q: "How can I get help with my Mahadev Book account?", a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts." },
+  { q: "How do I find Mahadev Book login information?", a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel." },
+  { q: "What payment options are supported?", a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts." },
+  { q: "What should I do if I have trouble accessing my account?", a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel." },
+  { q: "Where can I find the latest Mahadev Book updates?", a: "Refer to Mahadev Book's current website information and terms for the most accurate answer." }
 ];
 
 const tickerItems = [

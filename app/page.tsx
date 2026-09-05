@@ -64,7 +64,7 @@ const tickerItems = [
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const whatsappUrl = "https://wa.me/8796686330";
+  const whatsappUrl = "https://wa.me/918360750829";
 
   return (
     <div className="min-h-screen bg-[#050B14] text-slate-200 selection:bg-amber-500/30 selection:text-amber-200">
